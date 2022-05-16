@@ -21,7 +21,7 @@ export default function Header() {
         <div className="container nav-wrapper">
           <Link to="/market" className="left brand-logo">Market</Link>
           <ul id="nav-mobile" className="right">
-            <li><Link to="/market/about">About</Link></li>
+            <li><Link to="/market/products">Products</Link></li>
             <li><Link to="/market/contact">Contact</Link></li>
           </ul>
         </div>

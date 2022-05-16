@@ -78,3 +78,17 @@ footer{
     }
   }
 }
+
+.preloader-wrapper.big.active {
+  height: 200px;
+  width: 200px;
+  margin: 50px 0;
+  position: relative;
+  left: 40%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
