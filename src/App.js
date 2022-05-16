@@ -12,14 +12,12 @@ export default function App() {
   return (
     <>
       <Header/>
-        <div className="content container">
             <Routes>
               <Route path="/market" element={<Main/>}/>
               <Route path="/market/about" element={<About/>}/>
               <Route path="/market/contact" element={<Contact/>}/>
               <Route path="*" element={<NotFound/>}/>
             </Routes>
-        </div>
       <Footer/>
     </>
   );

@@ -1,18 +1,18 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Header() {
 
-  const [active, setActive] = useState(false);
+  // const [active, setActive] = useState(false);
 
-  useEffect(() => {
+/*   useEffect(() => {
     document.querySelector('header ul').addEventListener('click', (e) => {
       if (e.target.nodeName === 'A') {
         e.target.parentNode.classList.add('active');
       }
     });
 
-  }, [])
+  }, []) */
 
 
   return (

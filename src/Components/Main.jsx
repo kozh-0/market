@@ -11,9 +11,15 @@ export default function Main() {
     .then(res => res.json())
     .then(data => setData(data));
 
+    return () => setData([]);
   }, [])
   
   return (
+    <div className="content">
+
+    <div className=" container">
       <CardList data={data}/>
+    </div>
+    </div>
   )
 }
